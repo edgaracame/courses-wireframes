@@ -1,0 +1,44 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-fields{
+    width: 75%;
+}
+
+.login p{
+    font-size: 2rem;
+    color: var(--blue);
+    font-weight: 700;
+}
+
+.input-group{
+    margin: 1em;
+    height: 3em;
+}
+
+.login button{
+    background-color: var(--green);
+    color: white;
+    border: none;
+    width: 8em;
+    height: 3em;
+    margin: 1em;
+}
+
+@media (min-width: 960px){
+    .login-fields{
+        width: 50%;
+    }
+
+    .login p{
+        font-size: 3rem;
+    }
+
+    .login button{
+        font-size: 1.2rem;
+    }
+}

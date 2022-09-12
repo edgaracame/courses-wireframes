@@ -1,0 +1,60 @@
+.account{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.account img{
+    max-width: 75%;
+    margin: 0;
+}
+
+.account p{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1em 0 1.5em 0;
+}
+
+.account-buttons a{
+    text-decoration: none;
+}
+
+.account-buttons a:first-child{
+    border: 1px solid var(--blue);
+    padding: 0.7rem 3rem;
+    color: var(--blue);
+    margin: 1.5em;
+}
+
+.account-buttons a:first-child:hover{
+    background-color: var(--blue);
+    color: white;
+}
+
+.account-buttons a:last-child{
+    border: 1px solid var(--green);
+    padding: 0.7rem 3rem;
+    color: var(--green);
+    margin: 1.5em;
+}
+
+.account-buttons a:last-child:hover{
+    background-color: var(--green);
+    color: white;
+}
+
+@media (min-width: 960px){
+    .account img{
+        max-width: 35%;
+    }
+
+    .account p{
+        font-size: 2.5rem;
+        margin: 1em;
+    }
+
+    .account-buttons a{
+        font-size: 1.2rem;
+    }
+}

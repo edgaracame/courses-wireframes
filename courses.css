@@ -1,0 +1,74 @@
+  .catalog_header {
+    display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  background-color: var(--lightblue);
+  color: black;
+  }
+
+  .catalog_header h2 {
+    font-size: 3rem;
+  font-weight: 700;
+  }
+
+  .header_info h2 {
+    margin-bottom: 0;
+  }
+
+.course_card {
+  margin: 15px auto 15px auto;
+}
+
+  .filter {
+    border-style: hidden;
+    margin-top: 15px;
+  }
+
+  .course_card h4 {
+    font-weight: bold;
+  }
+
+  .course_card p {
+    color: gray;
+    text-transform: uppercase;
+  }
+
+  .course-tab li {
+    width: 8rem;
+    text-align: center;
+    margin: 7px;
+  }
+
+  .course-media {
+    border-right: 1px solid gray;
+  }
+
+  .course-img {
+    margin-top: 10px;
+  }
+
+  .course-info h5 {
+    color: gray;
+    font-style: italic;
+  }
+
+  .course-info p {
+    text-align: justify;
+  }
+
+  .course-info h2 {
+    font-weight: bold;
+  }
+
+  .course-container {
+    padding: 10px;
+  }
+
+  .thumbnail-imgs img {
+    padding: 5px;
+  }
+
+  .course-info-title {
+    margin-top: 10px;
+  }

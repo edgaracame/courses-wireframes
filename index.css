@@ -1,0 +1,195 @@
+.banner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 25vh;
+  background-color: var(--lightblue);
+  color: black;
+}
+
+.banner .welcome-text {
+  width: 50%;
+}
+
+.welcome-text .banner-welcome {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.welcome-text .banner-text {
+  text-align: justify;
+  text-align-last: left;
+}
+
+.banner .banner-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+  border: none;
+  width: 10em;
+  height: 2.5em;
+}
+
+@media (min-width: 960px){
+  .banner .banner-welcome{
+    font-size: 4rem;
+  }
+
+  .banner .welcome-text{
+    font-size: 1.4rem;
+  }
+
+  .banner .banner-button{
+    font-size: 1.3rem;
+  }
+}
+
+.navbar {
+  background-color: var(--blue);
+  color: white;
+}
+
+.navbar-brand, .navbar-brand:hover{
+  color: white;
+}
+
+.navbar button{
+  border: 1px solid white;
+  color: white;
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(255, 255, 255);
+} 
+
+.nav-link{
+  color: white;
+}
+
+.nav-link:hover{
+  color: white;
+}
+
+.nav-link:active{
+  color: white;
+}
+
+.dropdown-menu a{
+  color: var(--blue);
+}
+
+@media (min-width: 960px){
+  .navbar{
+    width: 100%;
+  }
+
+  .navbar-brand{
+    display: none;
+  }
+
+  .navbar-nav > li{
+    text-align: center;
+    margin-left: 7rem;
+    margin-right: 7rem;
+  }
+
+  .nav-link{
+    font-size: 1.2rem;
+  }
+
+  .dropdown-item{
+    font-size: 1.2rem;
+  }
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.intro img {
+  max-width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.intro-text {
+  width: 75%;
+  text-align: justify;
+  text-align-last: center;
+}
+
+.intro-text-introduction {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.intro-text-description {
+  font-size: 1.2rem;
+}
+
+.intro-buttons button {
+  background-color: var(--green);
+  color: white;
+  border: none;
+  width: 10em;
+  height: 2.5em;
+}
+
+.intro-buttons a {
+  text-decoration: none;
+  color: black;
+  margin: 0 1em;
+  font-weight: 700;
+}
+
+.intro-buttons a:hover {
+  text-decoration: underline;
+}
+
+@media (min-width: 960px){
+  .intro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3em auto;
+  }
+  
+  .intro img{
+    max-width: 45%;
+  }
+
+  .intro-text{
+    max-width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  .intro-text-description{
+    text-align-last: left;
+  }
+
+  .intro-buttons{
+    margin-top: 2em;
+  }
+
+  .intro-buttons button{
+    font-size: 1.2rem;
+  }
+
+  .intro-buttons a{
+    font-size: 1.2rem;
+  }
+}
